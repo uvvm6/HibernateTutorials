@@ -3,13 +3,13 @@ package javatech.hibernate.main;
 import java.util.Iterator;
 import java.util.List;
 
-import javatech.hibernate.entity.UserProfile;
-
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+
+import javatech.hibernate.entity.UserProfile;
 
 public class MainOrmExecutor {
 	private static SessionFactory factory; 

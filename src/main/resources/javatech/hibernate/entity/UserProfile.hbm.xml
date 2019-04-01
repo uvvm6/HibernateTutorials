@@ -4,19 +4,20 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="Channels" table="channels">
+	<class  name="javatech.hibernate.entity.UserProfile" table="user_profile">
 
 		<meta attribute="class-description">
 			This class contains user profile details.
 		</meta>
 
 		<id name="id" type="int" column="id">
-			<generator class="native" />
+            <generator class="identity" />
 		</id>
 
-		<property name="firstName" column="first_name" type="string" />
-		<property name="lastName" column="last_name" type="string" />
-		<property name="salary" column="salary" type="int" />
+		<property name="dpName" column="dp_name" type="string" />
+		<property name="dob" column="dob" type="string" />
+		<property name="currentCity" column="current_city" type="string" />
+		<property name="homeTown" column="home_town" type="string" />
 
 	</class>
 </hibernate-mapping>

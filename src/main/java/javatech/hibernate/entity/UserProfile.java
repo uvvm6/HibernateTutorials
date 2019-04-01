@@ -35,17 +35,17 @@ public class UserProfile {
 	public void setHomeTown(String homeTown) {
 		this.homeTown = homeTown;
 	}
-	public List<Long> getFriendsList() {
+	/*public List<Long> getFriendsList() {
 		return followingChannels;
 	}
 	public void setFriendsList(List<Long> friendsList) {
 		this.followingChannels = friendsList;
-	}
+	}*/
 	
 	private String dpName;
 	private String dob;
 	private String currentCity;
 	private String homeTown;
-	private List<Long> followingChannels;
+//	private List<Long> followingChannels;
 	
 }
